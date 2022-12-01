@@ -1,0 +1,22 @@
+s18112 = ["Andrzej", "Zalewski", "Siedlce"]
+s21542 = ["Grażyna", "Staszewski", "Mińsk Mazowiecki"]
+s81123 = ["Stefan", "Kolanowski", "Łuków"]
+s91221 = ["Monika", "Kaszewska", "Siedlce"]
+studenci = [s18112, s21542, s81123, s91221]
+print(studenci)
+for student in studenci:
+    print (student[0])
+    if student [0]== "Stefan":
+        student[2]="siedlce"
+while True:
+    print (studenci)  
+    print ("Podaj imię")
+    imię =input()
+    print("podaj nazwisko")
+    nazwisko =input()
+    print("poddaj miejsce zamieszkania")
+    miejsce_zamieszaknia =input()
+    nowy_student=[imię, nazwikso, miejsce_zamieszkania]
+    studenci.append(nowy_student)
+    print (studenci)
+
